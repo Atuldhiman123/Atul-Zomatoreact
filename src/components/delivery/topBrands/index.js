@@ -71,7 +71,9 @@ const TopBrands = () => {
             src={brand.cover} 
             className='top-brands-image' 
             alt={brand.name} />
-           </div>
+            </div>
+            
+
            <div className="top-brands-title">{brand.name}</div>
            <div className="top-brands-time">{brand.time}</div>
           </div>
